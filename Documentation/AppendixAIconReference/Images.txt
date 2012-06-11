@@ -1,0 +1,6 @@
+﻿.. |img-6|      image:: ../Images/manual_html_3b55612f.png
+   :height: 453
+   :width: 320
+.. :align: left
+.. :border: 0
+.. :name: graphics1

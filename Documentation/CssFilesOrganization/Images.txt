@@ -1,0 +1,23 @@
+﻿.. |img-3|      image:: ../Images/manual_html_2af2677a.png
+   :height: 55
+   :width: 172
+.. :align: left
+.. :border: 0
+.. :name: graphics54
+.. :vspace: 8
+
+.. |img-4|      image:: ../Images/manual_html_14301926.png
+   :height: 229
+   :width: 218
+.. :align: left
+.. :border: 0
+.. :name: images1
+.. :vspace: 8
+
+.. |img-5|      image:: ../Images/manual_html_2900c299.png
+   :height: 258
+   :width: 296
+.. :align: left
+.. :border: 0
+.. :name: graphics2
+
