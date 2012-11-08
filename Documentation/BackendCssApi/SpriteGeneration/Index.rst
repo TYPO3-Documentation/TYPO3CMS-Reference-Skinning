@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Sprite Generation
@@ -83,7 +74,7 @@ Sprites and stylesheets provided by the Core are located in
 
    Path
          Path
-   
+
    Description
          Description
 
@@ -92,9 +83,9 @@ Sprites and stylesheets provided by the Core are located in
 
    Path
          typo3/sysext/t3skin/images/sprites/t3skin.png
-         
+
          typo3/sysext/t3skin/images/sprites/t3skin.gif
-   
+
    Description
          The sprites provided by t3skin for the whole backend. The gif sprite
          is for IE6 compatibility.
@@ -104,7 +95,7 @@ Sprites and stylesheets provided by the Core are located in
 
    Path
          typo3/sysext/t3skin/stylesheets/sprites/t3skin.css
-   
+
    Description
          Contains the CSS stylesheets that will be used for positioning the
          sprite.
@@ -123,7 +114,7 @@ the Sprite Generator Handler are located in typo3temp as follows:
 
    Path
          Path
-   
+
    Description
          Description
 
@@ -132,7 +123,7 @@ the Sprite Generator Handler are located in typo3temp as follows:
 
    Path
          ...
-   
+
    Description
          The sprite / icons location will depend on how the handler is
          configured in the install tool under key
@@ -144,7 +135,7 @@ the Sprite Generator Handler are located in typo3temp as follows:
 
    Path
          typo3temp/srpites/zextensions.css
-   
+
    Description
          Contains the CSS stylesheets that will be used for positioning the
          sprite.
@@ -155,9 +146,7 @@ the Sprite Generator Handler are located in typo3temp as follows:
 
 Use case #2 gives a good insight of the API to be used to add new icon
 in the Backend. The common way, is to call method addSingleIcons as
-follows:
-
-::
+follows::
 
    // Gives the $icon array to the sprite manager
    t3lib_SpriteManager::addSingleIcons($icons, 'foo');

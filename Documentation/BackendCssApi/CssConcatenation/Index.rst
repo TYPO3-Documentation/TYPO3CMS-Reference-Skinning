@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 CSS concatenation
@@ -24,9 +15,7 @@ single stylesheet instead of many, which saves many HTTP requests. The
 compression is done automatically when using TYPO3 v4.4 or greater.
 
 The concatenated files are stored in folder /typo3temp/compressor/,
-typically:
-
-::
+typically::
 
    ../typo3temp/compressor/merged-43184ce406ccfb7c04df66f024414129-403f03ea0692e1f848b48ae4da48b005.css?1278079667
 
@@ -37,7 +26,7 @@ typically:
 
    Segment
          Segment
-   
+
    Description
          Description
 
@@ -46,7 +35,7 @@ typically:
 
    Segment
          First md5: `43184ce406ccfb7c04df66f024414129 <view-source:http://newsletter.local/typo3temp/compressor/merged-43184ce406ccfb7c04df66f024414129-403f03ea0692e1f848b48ae4da48b005.css?1278079667>`_
-   
+
    Description
          Md5 of the whole content (not yet concatenated).
 
@@ -55,7 +44,7 @@ typically:
 
    Segment
          Second md5: `403f03ea0692e1f848b48ae4da48b005 <view-source:http://newsletter.local/typo3temp/compressor/merged-43184ce406ccfb7c04df66f024414129-403f03ea0692e1f848b48ae4da48b005.css?1278079667>`_
-   
+
    Description
          Md5 of the file name + file path + file size
 
@@ -64,7 +53,7 @@ typically:
 
    Segment
          Time stamp: `1278079667 <view-source:http://newsletter.local/typo3temp/compressor/merged-43184ce406ccfb7c04df66f024414129-403f03ea0692e1f848b48ae4da48b005.css?1278079667>`_
-   
+
    Description
          The creation time stamp of the file itself.
 

@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Form
@@ -22,11 +13,11 @@ Form
 
    <form id="t3-generated-1" class="t3-form" method="POST">
        <div class="t3-form-container">
-       
+
            <!-- FIELDSET -->
            <fieldset class="t3-form-fieldset">
                <legend>Contact Information</legend>
-   
+
                <!-- INPUT FIELD -->
                <div class="t3-form-item">
                    <label class="t3-form-item-label" for="t3-component-1">First Name</label>
@@ -35,7 +26,7 @@ Form
                    </div>
                    <div class="t3-form-clear-left"/>
                </div>
-   
+
                <!-- CHECKBOX FIELD -->
                <div class="t3-form-item">
                    <div class="t3-form-element">
@@ -46,7 +37,7 @@ Form
                        </div>
                    <div class="t3-form-clear-left"/>
                </div>
-   
+
                <!-- RADIO FIELD -->
                <div class="t3-form-item">
                    <label class="t3-form-item-label" for="t3-component-3"/>
@@ -58,7 +49,7 @@ Form
                    </div>
                    <div class="t3-form-clear-left"/>
                </div>
-   
+
                <!-- SELECT FIELD -->
                <div class="t3-form-item">
                    <label class="t3-form-item-label" for="t3-component-4">First Name</label>
@@ -69,7 +60,7 @@ Form
                    </div>
                    <div class="t3-form-clear-left"/>
                </div>
-   
+
                <!-- TEXTAREA FIELD -->
                <div class="t3-form-item">
                    <label for="t3-component-5">Address</label>
@@ -78,10 +69,10 @@ Form
                    </div>
                    <div class="t3-form-clear-left"/>
                </div>
-   
+
                <div id="t3-generated-26" class="t3-form-clear"/>
                </fieldset>
-   
+
            <!-- BUTTONS -->
            <div class="t3-form-buttons-container">
                <div class="t3-form-buttons t3-form-buttons-center">

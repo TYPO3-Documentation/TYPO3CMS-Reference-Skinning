@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../Includes.txt
 
 
 CSS Naming Conventions
@@ -28,9 +19,7 @@ are expected to use a "t3-" prefix. This will prevent naming
 collisions when mixing up stylesheets with another application or
 styles from the old skinning parts.
 
-To be more concrete, let's give a good example of CSS class names:
-
-::
+To be more concrete, let's give a good example of CSS class names::
 
    <input class="t3-form-text t3-form-field" type="text" />
 
@@ -43,9 +32,7 @@ text" class to make it possible to have additional decorations on the
 input. Please notice the dash "-" which is used as separator inside
 the names.
 
-Now let's have a look at a  **bad** example:
-
-::
+Now let's have a look at a  **bad** example::
 
    <input class="t3-input-line-table">
 

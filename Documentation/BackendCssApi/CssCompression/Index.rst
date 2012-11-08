@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 CSS compression
@@ -25,17 +16,13 @@ Steps can be enabled in the Backend as follows:
 
 #. In the module "Install" > "All configuration", set compression level
    between 1 and 9, where 1 is least compression and 9 is greatest
-   compression. Suggested and most optimal value is 5.
-
-::
+   compression. Suggested and most optimal value is 5. ::
 
       $GLOBALS['TYPO3_CONF_VARS']['BE']['compressionLevel'] = 5;
-   
+
 
 #. In a .htaccessfile or in virtual host add some configuration provided
-   by file misc/advanced\_htaccess.
-
-::
+   by file misc/advanced\_htaccess. ::
 
       <FilesMatch "\.js\.gzip$">
                    AddType "text/javascript" .gzip
@@ -46,11 +33,9 @@ Steps can be enabled in the Backend as follows:
            AddEncoding gzip .gzip
 
 Followingthose 2 steps will generate a compressed file and therefore
-add a "gzip" suffix to the file.
+add a "gzip" suffix to the file. ::
 
-::
-
-   merged-43184ce406ccfb7c04df66f024414129-5c86564215e4bad82a1955b74b639532.css.gzip?1278152902 
+   merged-43184ce406ccfb7c04df66f024414129-5c86564215e4bad82a1955b74b639532.css.gzip?1278152902
 
 Itmay happen that the browser does not support GZIP compression for
 some reason. Typically, it can be behind a proxy server which does not

@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Use case 3: migration steps from legacy to new API
@@ -41,7 +32,7 @@ Bellow, find the equivalence of legacy API versus new API.
 
    Legacy API > TYPO3 4.3
          Legacy API > TYPO3 4.3
-   
+
    New API < TYPO3 4.4
          New API < TYPO3 4.4
 
@@ -50,7 +41,7 @@ Bellow, find the equivalence of legacy API versus new API.
 
    Legacy API > TYPO3 4.3
          <img src="t3lib\_iconWorks::skinImg(...)" />
-   
+
    New API < TYPO3 4.4
          t3lib\_iconWorks::getSpriteIcon('actions-document-new')
 
@@ -59,7 +50,7 @@ Bellow, find the equivalence of legacy API versus new API.
 
    Legacy API > TYPO3 4.3
          t3lib\_iconWorks::getIconImage(...)
-   
+
    New API < TYPO3 4.4
          t3lib\_iconWorks::getSpriteIconForRecord('tt\_content')
 
@@ -67,8 +58,8 @@ Bellow, find the equivalence of legacy API versus new API.
 .. container:: table-row
 
    Legacy API > TYPO3 4.3
-   
-   
+
+
    New API < TYPO3 4.4
          t3lib\_iconWorks::getSpriteIconForFile('pdf')
 

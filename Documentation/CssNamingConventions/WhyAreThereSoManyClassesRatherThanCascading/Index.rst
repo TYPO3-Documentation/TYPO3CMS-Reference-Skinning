@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Why are there so many classes rather than cascading?
@@ -27,14 +18,12 @@ class defined and styling for a certain element is needed. This is
 mostly true for inline elements like legend, span, a, strong,
 blockquote, img, em, li, etc.
 
-Just a few examples:
-
-::
+Just a few examples::
 
    .t3-form-fieldset legend {
            ...
    }
-   
+
    .t3-form-element span {
            ...
    }

@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Icons API
@@ -34,7 +25,7 @@ are involved in the icons API.
 
    Classes
          Classes
-   
+
    Description
          Description
 
@@ -43,10 +34,10 @@ are involved in the icons API.
 
    Classes
          **final t3lib\_iconWorks** t3lib/class.t3lib\_iconworks.php
-   
+
    Description
          Icon generation, backend
-         
+
          This library has functions that returns - and if necessary creates -
          the icon for an element in TYPO3
 
@@ -55,13 +46,13 @@ are involved in the icons API.
 
    Classes
          **t3lib\_SpriteManager** t3lib/class.t3lib\_spritemanager.php
-   
+
    Description
          TYPO3 sprite manager, used in BE and in FE if a BE user is logged in.
-         
+
          This class builds CSS definitions of registered icons, writes TCA
          definitions and registers sprite icons in a cache file.
-         
+
          A configurable handler class does the business task.
 
 
@@ -70,7 +61,7 @@ are involved in the icons API.
    Classes
          **interface t3lib\_spritemanager\_SpriteIconGenerator** t3lib/interfac
          es/interface.t3lib\_spritemanager\_spriteicongenerator.php
-   
+
    Description
          Interface all handlers for t3lib\_spritemanager have to implement.
 
@@ -80,11 +71,11 @@ are involved in the icons API.
    Classes
          **t3lib\_spritemanager\_SimpleHandler**
          t3lib/spritemanager/class.t3lib\_spritemanager\_simplehandler.php
-   
+
    Description
          A class with an concrete implementation of
          t3lib\_spritemanager\_SpriteIconGenerator.
-         
+
          It is the standard / fallback handler of the sprite manager. This
          implementation won't generate sprites at all. It will just render css-
          definitions for all registered icons so that they may be used through
@@ -104,7 +95,7 @@ The section below gives examples how to use method of t3lib\_iconWorks
 
    Method name
          Method name
-   
+
    Description
          Description
 
@@ -113,7 +104,7 @@ The section below gives examples how to use method of t3lib\_iconWorks
 
    Method name
          t3lib\_iconWorks::getSpriteIconClasses($iconName)
-   
+
    Description
          generic method to create the final CSS classes based on the sprite
          icon name with the base class and splits the name into parts is
@@ -134,7 +125,7 @@ Example
 
    ####
    t3lib_iconWorks::getSpriteIconClasses('actions-document-new')
-   Result: 
+   Result:
    t3-icon t3-icon-actions t3-icon-actions-document t3-icon-document-new
 
 
@@ -144,7 +135,7 @@ Example
 
    Method name
          Method name
-   
+
    Description
          Description
 
@@ -154,7 +145,7 @@ Example
    Method name
          t3lib\_iconWorks::getSpriteIcon($iconName, array $options = array(),
          array $overlays = array())
-   
+
    Description
          This generic method is used throughout the TYPO3 Backend to show icons
          in any variation which are not bound to any file type (see
@@ -171,21 +162,21 @@ Examples
 
    ####
    t3lib_iconWorks::getSpriteIcon('actions-document-new')
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-actions t3-icon-actions-document t3-icon-document-new"></span>
-   
+
    ####
    t3lib_iconWorks::getSpriteIcon('actions-document-new', array('title' => 'foo'))
-   Result: 
+   Result:
    <span title="foo" class="t3-icon t3-icon-actions t3-icon-actions-document t3-icon-document-new"></span>
-   
+
    ####
    t3lib_iconWorks::getSpriteIcon('actions-document-new', array(), array('status-overlay-hidden' => array()))
    Result: notice the additional "t3-icon-overlay" class
    <span class="t3-icon t3-icon-actions t3-icon-actions-document t3-icon-document-new">
      <span class="t3-icon t3-icon-status t3-icon-status-overlay t3-icon-overlay-hidden t3-icon-overlay"></span>
    </span>
-   
+
 
 
 .. ### BEGIN~OF~TABLE ###
@@ -194,7 +185,7 @@ Examples
 
    Method name
          Method name
-   
+
    Description
          Description
 
@@ -204,11 +195,11 @@ Examples
    Method name
          t3lib\_iconWorks::getSpriteIconForRecord($table, array $row, array
          $options = array())
-   
+
    Description
          This method is used throughout the TYPO3 Backend to show icons for a
          DB record.
-         
+
          Generates a HTML tag with proper CSS classes. The TYPO3 skin has
          defined these CSS classes already to have a pre-defined background
          image, and the correct background-position to show the necessary icon.
@@ -224,19 +215,19 @@ Examples
 
    ####
    t3lib_iconWorks::getSpriteIconForRecord('tt_content', array())
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-x t3-icon-x-content-text"></span>
    ####
    t3lib_iconWorks::getSpriteIconForRecord('tt_content', array('hidden' => 1))
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-x t3-icon-x-content-text">
     <span class="t3-icon t3-icon-status t3-icon-status-overlay t3-icon-overlay-hidden t3-icon-overlay"></span>
    </span>
    ####
    t3lib_iconWorks::getSpriteIconForRecord('tt_content', array(), array('class' => 'foo', 'title' => 'bar'))
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-x t3-icon-x-content-text foo" title="bar"></span>
-   
+
 
 
 .. ### BEGIN~OF~TABLE ###
@@ -245,7 +236,7 @@ Examples
 
    Method name
          Method name
-   
+
    Description
          Description
 
@@ -255,11 +246,11 @@ Examples
    Method name
          t3lib\_iconWorks::getSpriteIconForFile($file, array $options =
          array())
-   
+
    Description
          This method is used throughout the TYPO3 Backend to show icons for a
          file type.
-         
+
          Generates a HTML tag with proper CSS classes. The TYPO3 skin has
          defined these CSS classes already to have a pre-defined background
          image, and the correct background-position to show the necessary icon.
@@ -275,14 +266,14 @@ Examples
 
    ####
    t3lib_iconWorks::getSpriteIconForFile('pdf')
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-pdf t3-icon-pdf"></span>
    ####
    t3lib_iconWorks::getSpriteIconForFile('filename.pdf')
-   Result: 
+   Result:
    <span class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-pdf t3-icon-pdf"></span>
    ####
    t3lib_iconWorks::getSpriteIconForFile('pdf', array('title' => 'bar'))
-   Result: 
+   Result:
    <span title="bar" class="t3-icon t3-icon-mimetypes t3-icon-mimetypes-pdf t3-icon-pdf"></span>
 

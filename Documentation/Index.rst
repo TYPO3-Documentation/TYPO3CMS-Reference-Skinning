@@ -1,18 +1,11 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: Includes.txt
+.. include:: Images.txt
+
 
 ========================
 TYPO3 Skinning Reference
@@ -28,7 +21,7 @@ TYPO3 Skinning Reference
       en
 
 :Description:
-	  Skinning guidelines and reference for the TYPO3 backend, including file structure, naming conventions, API description, etc.
+      Skinning guidelines and reference for the TYPO3 backend, including file structure, naming conventions, API description, etc.
 
 :Keywords:
       forDevelopers, forAdvanced
@@ -45,6 +38,9 @@ TYPO3 Skinning Reference
 :License:
       Open Content License available from `www.opencontent.org/opl.shtml
       <http://www.opencontent.org/opl.shtml>`_
+
+:Rendered:
+      |today|
 
 The content of this document is related to TYPO3,
 
@@ -93,4 +89,4 @@ address the task at hand.
    Faq/Index
    NextSteps/Index
    AppendixAIconReference/Index
-
+   Targets

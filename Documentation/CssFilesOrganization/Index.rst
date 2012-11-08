@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../Includes.txt
+.. include:: Images.txt
 
 
 CSS Files Organization
@@ -37,7 +29,7 @@ font-size, font-weight, color, background, etc...
 
    Structure
          Structure
-   
+
    Visual
          Visual
 
@@ -46,44 +38,44 @@ font-size, font-weight, color, background, etc...
 
    Structure
          padding, margin
-         
+
          width, height
-         
+
          position
-         
+
          float
-         
+
          display
-         
+
          visibility
-         
+
          top, right, bottom, left
-         
+
          z-index
-         
+
          clear
-   
+
    Visual
          font
-         
+
          color
-         
+
          background
-         
+
          border
-         
+
          overflow
-         
+
          vertical-align
-         
+
          white-space
-         
+
          cursor
-         
+
          text
-         
+
          box-shadow
-         
+
          list-styleline-height
 
 

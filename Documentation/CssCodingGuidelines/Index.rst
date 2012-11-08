@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../Includes.txt
 
 
 CSS Coding Guidelines
@@ -45,9 +36,7 @@ CSS Coding Guidelines
 - Attribute selectors (e.g. input[type=submit]) should be avoided also
   due to certain limitations in some browsers.
 
-CSS statements are written as below:
-
-::
+CSS statements are written as below::
 
    .t3-icon,
    .t3-link {

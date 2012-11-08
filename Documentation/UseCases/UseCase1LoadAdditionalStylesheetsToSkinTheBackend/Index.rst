@@ -1,27 +1,16 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Use case 1: load additional stylesheets to skin the Backend
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Step 1: add following line into ext\_tables.php to register the
-extension
-
-::
+extension ::
 
    $GLOBALS['TBE_STYLES']['skins'][$EXTKEY]['name'] = $EXTKEY;
 
@@ -44,13 +33,13 @@ Example of CSS
    table.t3-page-columns {
        width:100%; // 800px
    }
-   
+
    td.t3-page-column-2 {
        min-width:200px;
        Width:20%;
        background-color:red;
    }
-   
+
    td.t3-page-column-0{
        width:78%;
        min-width:400px;
