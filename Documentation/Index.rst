@@ -7,9 +7,11 @@
 .. include:: Images.txt
 
 
-========================
-TYPO3 Skinning Reference
-========================
+.. _start:
+
+============================
+TYPO3 CMS Skinning Reference
+============================
 
 :Previous Key:
       doc_core_skinning
@@ -27,7 +29,7 @@ TYPO3 Skinning Reference
       forDevelopers, forAdvanced
 
 :Copyright:
-      2000-2010
+      2000-2013
 
 :Author:
       Documentation Team
