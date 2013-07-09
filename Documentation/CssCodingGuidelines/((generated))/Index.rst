@@ -25,11 +25,11 @@ a line-break for the statements.
 followed by a colon and then a white-space, every statement is
 separated by a line-break.
 
-4. When using the short version for properties like “padding”,
-“margin” or “border”, instead of “padding-left”, “padding-right”...,
+4. When using the short version for properties like "padding",
+"margin" or "border", instead of "padding-left", "padding-right"...,
 all four values are preferred (padding: 10px 0 10px 0). Two values are
 also allowed in this case (padding: 10px 0).
 
-5. Null-values should be abbreviated with “0” instead of “0em” or
-“0px”.
+5. Null-values should be abbreviated with "0" instead of "0em" or
+"0px".
 

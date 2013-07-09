@@ -17,17 +17,17 @@ CSS Coding Guidelines
 
 - All CSS inclusions should be done through the appropriate <style> tag
   in HTML, and not through the @import statement, they also should have
-  proper “media” attributes.
+  proper "media" attributes.
 
 - It is encouraged to use generic classes for common styling issues
-  instead of “id”.
+  instead of "id".
 
 - It is discouraged to prepend the HTML tag in front of a generic CSS
   selector, however if you need to specify one, write it in lowercase
   (span.t3-icon instead of SPAN.t3-icon).
 
-- Use as little cascading as possible. “It is encourage to use cascading
-  when there is no class defined”
+- Use as little cascading as possible. "It is encourage to use cascading
+  when there is no class defined"
 
 - Also, it is strongly discouraged to use multiple class definitions in
   one selector due to a bug in Internet Explorer 6 (e.g. .t3-icon.t3

@@ -37,10 +37,10 @@ Now let's have a look at a  **bad** example::
    <input class="t3-input-line-table">
 
 This is a  **bad** example as one can't guess the purpose of the "t3
--input-line-table" selector. It contains the word “table” but is used
+-input-line-table" selector. It contains the word "table" but is used
 within an input field which makes it semantically hard to understand
 the purpose of the class. Furthermore it creates confusion with the
-“table” HTML tag.
+"table" HTML tag.
 
 
 .. toctree::
