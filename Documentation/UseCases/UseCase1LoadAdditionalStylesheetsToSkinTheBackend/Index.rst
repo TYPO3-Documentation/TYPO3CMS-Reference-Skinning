@@ -46,6 +46,6 @@ Example of CSS
    }
 
 As an example, have a look at the extension `pagemodulecss
-<http://forge.typo3.org/projects/show/extension-pagemodulecss>`_ at
+<https://forge.typo3.org/projects/extension-pagemodulecss>`_ at
 Forge.
 
