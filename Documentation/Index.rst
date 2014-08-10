@@ -28,7 +28,7 @@ TYPO3 CMS Skinning Reference
       forDevelopers, forAdvanced
 
 :Copyright:
-      2000-2013
+      2000-2014
 
 :Author:
       Documentation Team
