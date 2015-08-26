@@ -2,7 +2,7 @@
 ---
 conf.py:
   project: TYPO3 CMS Skinning Reference
-  copyright: 2000-2014
+  copyright: 2000-2015
   version: 1.0.0
   release: 1.0.0
   html_theme_options:
