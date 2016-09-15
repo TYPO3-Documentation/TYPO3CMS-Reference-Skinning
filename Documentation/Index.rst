@@ -70,11 +70,12 @@ address the task at hand.
 
 **Table of Contents**
 
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+Please visit the complete :ref:`Sitemap`.
 
+.. toctree::
+   :hidden:
+
+   Sitemap/Index
    Introduction/Index
    CssFilesOrganization/Index
    BackendCssApi/Index
