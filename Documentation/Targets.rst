@@ -1,11 +1,11 @@
 .. include:: Includes.txt
 
-.. _labels-for-crossreferencing:
+===========
+Linktargets
+===========
 
-.. only:: t3html
+Labels for Cross-Referencing
+============================
 
-   Index: Labels for Cross-Referencing
-   ===================================
-
-   .. ref-targets-list::
+.. ref-targets-list::
 
