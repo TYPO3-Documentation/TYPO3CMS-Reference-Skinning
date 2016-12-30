@@ -7,7 +7,7 @@ Use case 1: load additional stylesheets to skin the Backend
 Step 1: add following line into ext\_tables.php to register the
 extension ::
 
-   $GLOBALS['TBE_STYLES']['skins'][$EXTKEY]['name'] = $EXTKEY;
+   $GLOBALS['TBE_STYLES']['skins'][$_EXTKEY]['name'] = $EXTKEY;
 
 Step2: save CSS files with your extension.The name of the CSS files
 does not matter really. More importantly, CSS files need to be saved
