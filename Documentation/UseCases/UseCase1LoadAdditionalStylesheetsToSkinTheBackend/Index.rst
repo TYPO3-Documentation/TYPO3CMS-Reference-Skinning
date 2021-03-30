@@ -40,7 +40,4 @@ Example of CSS
        min-width:400px;
    }
 
-As an example, have a look at the extension `pagemodulecss
-<https://forge.typo3.org/projects/extension-pagemodulecss>`_ at
-Forge.
 
