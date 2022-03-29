@@ -29,5 +29,5 @@ TYPO3 CMS Skinning Reference
 
 This document explains how CSS classes and icons in the TYPO3 Backend
 are defined. It is the basis for a consistent naming convention to
-ease the skinning of the TYPO3 Backend, as well as to ensure
+ease the skinning of the TYPO3 Backend, as well as helping to ensure
 consistency.
